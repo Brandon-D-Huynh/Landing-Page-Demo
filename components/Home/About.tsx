@@ -61,7 +61,7 @@ const About = ({ imageOrder, textOrder, title, linkText }: Props) => {
         </div>
         {/* Image Content */}
         <div className={`${imageOrder}`}>
-          <Image src="/images/hero.png" alt="image" width={380} height={380} />
+          <Image src="/images/h1.png" alt="image" width={380} height={380} />
         </div>
       </div>
     </div>
