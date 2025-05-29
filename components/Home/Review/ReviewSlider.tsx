@@ -4,6 +4,7 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import ReviewCard from "./ReviewCard";
+import { reviewData } from "@/constant/constant";
 
 const responsive = {
   desktop: {
@@ -33,21 +34,15 @@ const ReviewSlider = () => {
         autoPlaySpeed={4000}
         keyBoardControl={true}
       >
-        <ReviewCard
-          image="/images/c1.png"
-          name="John Doe"
-          role="Founder Codex"
-        />
-        <ReviewCard
-          image="/images/c2.png"
-          name="Jason Doe"
-          role="Founder TechBox"
-        />
-        <ReviewCard
-          image="/images/c3.png"
-          name="Jane Doe"
-          role="Co-Founder Devex"
-        />
+        {reviewData.map((review, index) => (
+          <ReviewCard
+            key={index}
+            image={review.image}
+            name={review.name}
+            role={review.role}
+            review={review.review}
+          />
+        ))}
       </Carousel>
       ;
     </div>
