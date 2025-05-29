@@ -3,9 +3,8 @@
 A modern, responsive landing page for AudioMax, a premium audio equipment company. Built with Next.js 15, TypeScript, and Tailwind CSS featuring smooth animations and a professional design.
 
 ## Live Demo
-
-[View Live Demo](#) <!-- https://landing-page-demo-woad.vercel.app/ -->
-
+**[View Live Demo](https://landing-page-demo-woad.vercel.app/)**
+ 
 ## Features
 
 - **Modern Design**: Clean, professional layout with premium feel
