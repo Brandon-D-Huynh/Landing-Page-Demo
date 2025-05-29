@@ -7,12 +7,11 @@ const Footer = () => {
       <div className="w-[80%] mx-auto items-start grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 grid gap-10 ">
         {/* Logo and Paragraph */}
         <div>
-          <div className="text-white font-bold text-3xl ">LOGO</div>
+          <div className="text-white font-bold text-3xl ">AudioMax</div>
           <p className="mt-5 font-semibold text-gray-300 text-sm ">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Voluptatibus ullam odio, officia inventore optio natus commodi
-            maiores, placeat recusandae quisquam vel doloribus sed et odit nam,
-            unde atque eos sunt.
+            Delivering premium audio experiences since 2018. We craft headphones
+            that bring your music to life with exceptional sound quality,
+            comfort, and cutting-edge wireless technology.
           </p>
           {/* Social Links */}
           <div className="flex items-center text-white space-x-4 mt-6">
@@ -32,34 +31,37 @@ const Footer = () => {
         </div>
         {/* Company Portion*/}
         <div className="space-y-5">
-          <h1 className="text-lg text-white fond-bold">Company</h1>
+          <h1 className="text-lg text-white font-bold">Company</h1>
           <p className="text-gray-300 hover:text-gray-400 font-medium cursor-pointer text-sm">
             About Us
           </p>
           <p className="text-gray-300 hover:text-gray-400 font-medium cursor-pointer text-sm">
-            Services
+            Our Technology
           </p>
           <p className="text-gray-300 hover:text-gray-400 font-medium cursor-pointer text-sm">
-            Our Customers
+            Careers
           </p>
           <p className="text-gray-300 hover:text-gray-400 font-medium cursor-pointer text-sm">
-            Portfolio
+            Press & Media
           </p>
           <p className="text-gray-300 hover:text-gray-400 font-medium cursor-pointer text-sm">
-            Blogs
+            Blog
           </p>
         </div>
         {/* Support Portion */}
         <div className="space-y-5">
-          <h1 className="text-lg text-white fond-bold">Support</h1>
+          <h1 className="text-lg text-white font-bold">Support</h1>
           <p className="text-gray-300 hover:text-gray-400 font-medium cursor-pointer text-sm">
-            Legal Information
+            Help Center
           </p>
           <p className="text-gray-300 hover:text-gray-400 font-medium cursor-pointer text-sm">
-            Terms & Conditions
+            Warranty
           </p>
           <p className="text-gray-300 hover:text-gray-400 font-medium cursor-pointer text-sm">
-            Report Abuse
+            Product Registration
+          </p>
+          <p className="text-gray-300 hover:text-gray-400 font-medium cursor-pointer text-sm">
+            Returns & Exchanges
           </p>
           <p className="text-gray-300 hover:text-gray-400 font-medium cursor-pointer text-sm">
             Privacy Policy
@@ -67,15 +69,19 @@ const Footer = () => {
         </div>
         {/* Get in Touch Portion */}
         <div>
-          <h1 className="text-lg text-white fond-bold">Get In Touch</h1>
+          <h1 className="text-lg text-white font-bold">Get In Touch</h1>
           <div className="mt-6">
-            <h1 className="text-sm text-white">Our Mobile Number</h1>
+            <h1 className="text-sm text-white">Customer Support</h1>
             <h1 className="text-base font-bold text-white mt-1">
               +1 714 890 2144
             </h1>
-            <h1 className="text-sm text-white">Our Address</h1>
+            <h1 className="text-sm text-white mt-4">Our Headquarters</h1>
             <h1 className="text-base font-bold text-white mt-1">
               Garden Grove, California
+            </h1>
+            <h1 className="text-sm text-white mt-4">Email Us</h1>
+            <h1 className="text-base font-bold text-white mt-1">
+              support@audiomax.com
             </h1>
           </div>
         </div>
@@ -83,18 +89,18 @@ const Footer = () => {
       {/* Bottom Portion */}
       <div className="mt-8 w-[80%] mx-auto border-t pt-8 flex flex-col md:flex-row justify-between items-center text-gray-600 text-sm">
         <p className="text-center md:text-left">
-          Copyright ® 2025 Brandon Corp. All rights reserved
+          Copyright © 2025 AudioMax Corp. All rights reserved
         </p>
         <div className="flex items-center space-x-4 mt-4 md:mt-0">
-          <span>Social :</span>
-          <span className="text-gray-500 hover:text-gray-800">
-            <FaFacebookF></FaFacebookF>
+          <span>Follow Us:</span>
+          <span className="text-gray-500 hover:text-gray-300 cursor-pointer">
+            <FaFacebookF />
           </span>
-          <span className="text-gray-500 hover:text-gray-800">
-            <FaTwitter></FaTwitter>
+          <span className="text-gray-500 hover:text-gray-300 cursor-pointer">
+            <FaTwitter />
           </span>
-          <span className="text-gray-500 hover:text-gray-800">
-            <FaDribbble></FaDribbble>
+          <span className="text-gray-500 hover:text-gray-300 cursor-pointer">
+            <FaDribbble />
           </span>
         </div>
       </div>

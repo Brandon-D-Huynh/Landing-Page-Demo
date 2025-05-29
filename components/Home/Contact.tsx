@@ -9,10 +9,9 @@ const Contact = () => {
       </h1>
       <span className="block w-16 h-1 bg-pink-600 mx-auto mt-3"></span>
       <p className="mt-4 text-center text-sm sm:text-base text-gray-700 dark:text-gray-200">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa illo,
-        unde dolorum sequi veniam hic architecto. Nulla assumenda culpa quos!
-        Perferendis, cupiditate beatae iure omnis aliquid eos corporis molestias
-        officia.
+        Have questions about our products? Need technical support? Want to
+        partner with us? We&apos;d love to hear from you. Our team is here to
+        help and typically responds within 24 hours.
       </p>
       <div className="w-[90%] sm:w-[80%] lg:w-[60%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6 items-center mt-16">
         <div className="h-full">
@@ -34,7 +33,7 @@ const Contact = () => {
         </div>
         <div className="h-full">
           <textarea
-            placeholder="Message"
+            placeholder="Tell us how we can help you..."
             className="w-full block text-black h-full bg-gray-200 shadow-md outline-none px-6 py-3.5 rounded-md mb-4"
           ></textarea>
         </div>

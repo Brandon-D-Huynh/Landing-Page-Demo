@@ -32,7 +32,9 @@ const Nav = ({ openNav }: Props) => {
     >
       <div className="flex items-center h-full justify-between sm:w-[80%] w-[90%] mx-auto">
         {/* Logo */}
-        <div className="text-white font-bold text-2xl sm:text-3xl">LOGO</div>
+        <div className="text-white font-bold text-2xl sm:text-3xl">
+          AudioMax
+        </div>
         {/* Nav Links */}
         <div className="hidden lg:flex items-center space-x-10">
           {navLinks.map((link) => {
@@ -58,7 +60,7 @@ const Nav = ({ openNav }: Props) => {
             <span className="absolute top-0 left-0 w-20 h-8 -mt-1 -ml-12 transition-all duration-300 ease-out transform -rotate-45 -translate-x-1 bg-white opacity-10 group-hover:translate-x-0"></span>
             <span className="relative z-20 flex items-center text-sm">
               <FaShoppingBag className="mr-3 w-5 h-5" />
-              Buy Now
+              Shop Now
             </span>
           </a>
           {/* Theme Switch Button */}
