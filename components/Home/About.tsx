@@ -60,7 +60,11 @@ const About = ({ imageOrder, textOrder, title, linkText }: Props) => {
           </div>
         </div>
         {/* Image Content */}
-        <div className={`${imageOrder}`}>
+        <div
+          data-aos="zoom-in"
+          data-aos-anchor-placement="top-center"
+          className={`${imageOrder}`}
+        >
           <Image src="/images/h1.png" alt="image" width={380} height={380} />
         </div>
       </div>
